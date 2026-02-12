@@ -1,0 +1,17 @@
+node_modules/
+
+# Meteor Modern-Tools build context directories
+_build
+*/build-assets
+*/build-chunks
+.rsdoctor
+
+# Galaxy CLI
+.galaxy/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
