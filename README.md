@@ -2,6 +2,13 @@
 
 A full-stack mobile application built with Meteor 3.4 and React 18, targeting iOS and Android via Cordova. Uses Konsta UI for native-looking components, Tailwind CSS 4 for styling, and Rspack for bundling.
 
+## Screenshots
+
+| iOS | Android |
+|-----|---------|
+| ![iOS Light](screenshots/ios-light.png) | ![Android Light](screenshots/android-light.png) |
+| ![iOS Dark](screenshots/ios-dark.png) | ![Android Dark](screenshots/android-dark.png) |
+
 ## Tech Stack
 
 - **Meteor 3.4** — Full-stack framework with real-time data via DDP
