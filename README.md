@@ -1,6 +1,6 @@
 # Welcome Meteor Cordova
 
-A full-stack mobile application built with Meteor 3.4 and React 18, targeting iOS and Android via Cordova. Uses Konsta UI for native-looking components, Tailwind CSS 4 for styling, and Rspack for bundling.
+A full-stack mobile application built with Meteor 3.6.1 and React 18, targeting iOS and Android via Cordova. Uses Konsta UI for native-looking components, Tailwind CSS 4 for styling, and Rspack for bundling.
 
 ## Screenshots
 
@@ -11,7 +11,7 @@ A full-stack mobile application built with Meteor 3.4 and React 18, targeting iO
 
 ## Tech Stack
 
-- **Meteor 3.4** — Full-stack framework with real-time data via DDP
+- **Meteor 3.6.1**: Full-stack framework with real-time data via DDP
 - **React 18** — UI library
 - **Konsta UI** — Mobile UI components with iOS/Material Design theming
 - **Tailwind CSS 4** — Utility-first CSS
