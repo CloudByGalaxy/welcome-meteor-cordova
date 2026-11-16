@@ -2,7 +2,7 @@
 
 An experimental Capacitor migration of the Meteor 3.6.1 Cordova example, based on [PR #3](https://github.com/CloudByGalaxy/welcome-meteor-cordova/pull/3) at `b6f4f8b`. The React components, Konsta UI, Tailwind styling, Meteor publication and counter are preserved, along with both original Maestro flows.
 
-The repository's [`main` branch](https://github.com/CloudByGalaxy/welcome-meteor-cordova/tree/main) remains the Cordova example. This transition is reviewed separately for the `capacitor-migration` branch. Its native projects are maintained in `android/` and `ios/`. See the [migration guide and validation record](MIGRATION.md) for the configuration mapping, tested baseline and remaining requirements.
+The repository's [`main` branch](https://github.com/CloudByGalaxy/welcome-meteor-cordova/tree/main) remains the Cordova example. This transition is reviewed separately for the `capacitor-migration` branch. Its native projects are maintained in `android/` and `ios/`. See the [example's migration and validation record](MIGRATION.md) for its changes, tested baseline and remaining requirements. The general migration workflow is maintained with Meteor's Capacitor documentation, linked from that record.
 
 This candidate requires the experimental Meteor integration in [meteor/meteor#14633](https://github.com/meteor/meteor/pull/14633). Preserving the 60-second startup deadline also requires a pending native-plugin follow-up that is currently local and has not been published. The validation below used that follow-up. Adding the configuration option alone to an older runtime does not preserve the deadline.
 

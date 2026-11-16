@@ -1,5 +1,11 @@
 # Cordova to Capacitor transition
 
+The general Meteor migration workflow is maintained in the core
+[Capacitor documentation](https://github.com/meteor/meteor/blob/capacitor-integration/v3-docs/docs/about/native-stack/capacitor-mobile.md#migrate-from-cordova).
+That guide is part of Meteor's `capacitor-integration` branch and
+[core integration PR](https://github.com/meteor/meteor/pull/14633). This document
+records the changes, setup and validation specific to this example.
+
 The `main` branch remains a Cordova example. The separate `capacitor-migration`
 branch is the destination for this experimental transition, preserving the same
 application behavior so the native integrations can be compared.
