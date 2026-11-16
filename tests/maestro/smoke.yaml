@@ -1,0 +1,11 @@
+appId: com.idq61wlm3rjzi.weftp5pcclxr
+name: Launch Cordova and load links
+---
+- launchApp
+- extendedWaitUntil:
+    visible: "Welcome to Meteor"
+    timeout: 60000
+- assertVisible: "Click Me"
+- extendedWaitUntil:
+    visible: "Do the Tutorial"
+    timeout: 60000
