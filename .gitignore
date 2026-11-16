@@ -15,7 +15,17 @@ _build
 # IDE
 .vscode/
 .idea/
+.native-test-results/
+*.keystore
+*.jks
 
 # Meteor Modern-Tools build context directories
 */build-assets*
 */build-chunks*
+
+# Meteor Capacitor synced native assets
+android/app/src/main/assets/public
+android/app/src/main/assets/capacitor.*.json
+ios/App/App/public
+ios/App/App/capacitor.*.json
+ios/App/App/config.xml

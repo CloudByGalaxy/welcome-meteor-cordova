@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">welcome-meteor-cordova</string>
+    <string name="title_activity_main">welcome-meteor-cordova</string>
+    <string name="package_name">com.idq61wlm3rjzi.weftp5pcclxr</string>
+    <string name="custom_url_scheme">com.idq61wlm3rjzi.weftp5pcclxr</string>
+</resources>

@@ -1,0 +1,24 @@
+appId: com.idq61wlm3rjzi.weftp5pcclxr
+name: Open the system browser and return to the same app state
+---
+- launchApp
+- extendedWaitUntil:
+    visible: "Read the Docs"
+    timeout: 60000
+- tapOn: "Click Me"
+- assertVisible:
+    text: "You've pressed the button 1 times[.]|1"
+    above: "Click Me"
+- tapOn: "Read the Docs"
+- extendedWaitUntil:
+    visible: ".*docs[.]meteor[.]com.*"
+    timeout: 60000
+- launchApp:
+    stopApp: false
+- assertVisible:
+    text: "You've pressed the button 1 times[.]|1"
+    above: "Click Me"
+- tapOn: "Click Me"
+- assertVisible:
+    text: "You've pressed the button 2 times[.]|2"
+    above: "Click Me"
