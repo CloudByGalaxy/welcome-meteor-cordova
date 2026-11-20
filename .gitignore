@@ -15,3 +15,7 @@ _build
 # IDE
 .vscode/
 .idea/
+
+# Meteor Modern-Tools build context directories
+*/build-assets*
+*/build-chunks*
